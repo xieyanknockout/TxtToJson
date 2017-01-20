@@ -58,7 +58,7 @@ public static void checker(String line,String keypattern,String valuepattern){
 
 public static void toJson() throws IOException{
 	for (int i=0;i<keys.size();i++){
-		result.append("{\""+keys.remove(0)+"\",\""+values.remove(0)+"\"},\n");
+		result.append("{\"author\":\""+keys.remove(0)+"\",\n\"words:\""+values.remove(0)+"\"},\n");
 	}
 }
 }
